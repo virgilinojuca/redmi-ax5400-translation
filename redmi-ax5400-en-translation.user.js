@@ -4,7 +4,7 @@
 // @include      https://miwifi.com/*
 // @include      https://192.168.31.1/*
 // @include      http://192.168.31.1/*
-// @version      1.0
+// @version      1.1
 // @description  Translate Redmi AX5400 Gaming Router control panel to English
 // @grant        none
 // @license      MIT 
