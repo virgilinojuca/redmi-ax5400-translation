@@ -2,6 +2,7 @@
 // @name         Redmi AX5400 English Translation
 // @namespace    virgilinojuca
 // @include      https://miwifi.com/*
+// @include      http://miwifi.com/*
 // @include      https://192.168.31.1/*
 // @include      http://192.168.31.1/*
 // @version      1.0
