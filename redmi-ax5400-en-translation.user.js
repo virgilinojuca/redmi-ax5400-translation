@@ -2,6 +2,7 @@
 // @name         Redmi AX5400 English Translation
 // @namespace    virgilinojuca
 // @include      https://miwifi.com/*
+// @include      http://miwifi.com/*
 // @include      https://192.168.31.1/*
 // @include      http://192.168.31.1/*
 // @version      1.1
@@ -215,6 +216,7 @@
   	'WAN口速率': 'WAN Port Bandwidth',
   	'速率': 'Speed',
   	'2500M/1000M/100M自动协商（推荐）': '2500M/1000M/100M auto-negotiation (recommended)',
+    '1000M/100M自动协商（推荐）': '1000M/100M auto-negotiation (recommended)',
   	'MAC地址克隆': 'MAC Cloning',
   	'当前使用的MAC地址是': 'Current MAC address is ',
   	'当前管理终端的MAC地址，可以手动更改为其他MAC地址': 'This device\'s MAC address can be changed manually to another address.',
@@ -540,9 +542,15 @@
     'WAN口策略': 'WAN Port Policy',
     'WAN1优先': 'WAN1 priority',
     'WAN2优先': 'WAN2 priority',
-    '目标IP：': 'Target IP:'
+    '目标IP：': 'Target IP:',
+    '当安装失败或需要降级到前一版本 h使用手动安装插件。': 'When the installation fails or you need to downgrade to a previous version, use manual installation of the plugin.',
+    '从备份恢复路由器设置': 'Restoring Router Settings from a Backup',
+    '请选择备份文件': 'Please select a backup file',
+    '恢复出厂设置操作会抹掉当前路由器的所有设置，建议您先进行配置备份再恢复出厂设置。': 'Restoring the factory settings will erase all the current router settings. It is recommended that you back up the configuration before restoring the factory settings.',
+    '提示': 'Hint',
+    '路由器正常工作情况下建议使用系统升级检测进行升级，在当系统无法升级或需要降级到前一版本 h使用手动上传rom包进行升级。': 'When the router is working normally, it is recommended to use system upgrade detection for upgrading. When the system cannot be upgraded or needs to be downgraded to the previous version, use manual upload of ROM package for upgrading.',
   };
-  
+
   // Dictionary of regex patterns
   const regexTranslations = {
     //'系统版本: ([\\d\\w\\.]+) 稳定版  MAC地址: ([A-F0-9:]+)': 'Firmware Version: $1 MAC Address: $2',
@@ -554,6 +562,10 @@
     'MiWiFi 稳定版 ([\\d\\w\\.]+)': 'MiWiFi Stable Version $1',
     '自动\\s+(\\(\\d+\\))': 'Auto $1',
     '(\\d{4})年(\\d{2})月(\\d{2})日': '$1-$2-$3',
+    '([0-9]{1,2})天 ([0-9]{1,2})小时([0-9]{1,2})分([0-9]{1,2})秒': '$1d $2h $3m $4s',
+    '([0-9]{1,2})小时([0-9]{1,2})分([0-9]{1,2})秒': '$1h $2m $3s',
+    '([0-9]{1,2})分([0-9]{1,2})秒': '$1m $2s',
+    '连接时长': 'Connection Duration',
     '年': 'y',
     '月': 'm',
     '日': 'd',
@@ -563,10 +575,12 @@
     '发现新版本,升级包大小为': 'New version found. Update package size is ',
     '，请立即升级。': ' Please update now.',
     '本机': 'This device',
+    'IP地址([0-9]{3}\.[0-9]{3}\.[0-9]{1,3}\.[0-9]{1,3})已生效': 'IP address $1 is effective',
+    'Redmi路由器': 'Redmi Router',
     '': '',
     '': ''
   };
-  
+
   // Function to replace text nodes with translations
   function replaceTextNodes(node) {
     if (node.nodeType === Node.TEXT_NODE) {
