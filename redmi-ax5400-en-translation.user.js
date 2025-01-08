@@ -5,7 +5,7 @@
 // @include      http://miwifi.com/*
 // @include      https://192.168.31.1/*
 // @include      http://192.168.31.1/*
-// @version      1.2
+// @version      1.1
 // @description  Translate Redmi AX5400 Gaming Router control panel to English
 // @grant        none
 // @license      MIT 
@@ -614,9 +614,10 @@
     'IP地址([0-9]{3}\.[0-9]{3}\.[0-9]{1,3}\.[0-9]{1,3})已生效': 'IP address $1 is effective',
     'Redmi路由器': 'Redmi Router',
     '请输入一个(.)位以内正整数。': 'Please enter a positive integer within $1 digits.',
+    '输入值太小，最小允许(.+)。': 'The input value is too small. The minimum allowed value is $1.',
     '请填写状态检查的(分| m)钟间隔。': 'Please enter the number of minutes between status checks.',
     '请填写强制更新的小(时| h)间隔。': 'Please enter the hourly interval between mandatory updates.',
-    '输入值太小，最小允许(.+)。': 'The input value is too small. The minimum allowed value is $1.',
+    '^带宽$': 'Bandwidth ',
   };
 
   // Function to replace text nodes with translations
