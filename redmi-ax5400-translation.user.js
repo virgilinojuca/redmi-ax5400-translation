@@ -12,7 +12,7 @@
 // @run-at       document-start
 // @grant        none
 // @license      MIT
-// @icon         https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Xiaomi_logo.svg/50px-Xiaomi_logo.svg.png
+// @icon         https://upload.wikimedia.org/wikipedia/commons/2/29/Xiaomi_logo.svg
 // ==/UserScript==
 
 // NOTE: if you changed the router's LAN IP, add another @match line for it,
