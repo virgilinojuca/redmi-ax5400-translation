@@ -2,6 +2,8 @@
 // @name         Redmi AX5400 Translation (English / Português)
 // @name:pt-BR   Redmi AX5400 Tradução (English / Português)
 // @namespace    virgilinojuca
+// @author       Jucá da Costa and Daniel "Nerun" Rodrigues
+// @author:pt-BR Jucá da Costa e Daniel "Nerun" Rodrigues
 // @match        *://miwifi.com/*
 // @match        *://192.168.31.1/*
 // @version      1.3
